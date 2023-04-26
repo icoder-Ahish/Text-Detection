@@ -19,7 +19,7 @@
         headers = {
             "content-type": "application/x-www-form-urlencoded",
             "Accept-Encoding": "application/gzip",
-            "X-RapidAPI-Key": "9b1ceb7cf2msh9df58c1434776cep1bcbabjsnf62c5c60448e",
+            "X-RapidAPI-Key": "Your_api_key",
             "X-RapidAPI-Host": "google-translate1.p.rapidapi.com"
         }
 
@@ -31,3 +31,6 @@
 
 # Display the detected language in Streamlit
       st.write(f"Detected language: {language}")
+      
+# Run Your application
+      streamlit run GoogleTransletApi
